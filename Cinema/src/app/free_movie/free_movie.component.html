@@ -1,0 +1,16 @@
+
+
+<div class="row mt-5">
+    <div class="col-md-3 mb-3" *ngFor="let movie of movies">
+      <div class="card text-center">
+        <div class="card-body">
+          <h5 class="card-title">{{movie.name}}</h5>
+          <p class="card-text">{{movie.description}}</p>
+          <a href="#" class="btn btn-primary">Play Now</a>
+        </div>
+        <div class="card-footer text-muted">
+          {{movie.type}}
+        </div>
+      </div>
+    </div>
+  </div>
